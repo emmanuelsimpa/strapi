@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "boseys",
+  "info": {
+    "singularName": "bosey",
+    "pluralName": "boseys",
+    "displayName": "bosey"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "unique": true,
+      "required": true
+    },
+    "password": {
+      "type": "password",
+      "required": true,
+      "minLength": 5
+    }
+  }
+}
